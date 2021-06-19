@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DuckDuckGo</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav></nav>
-    <div class="body">
-      <div class="logo">
-        <img src="logo.jpeg" alt="duck" />
-      </div>
-      <div class="serach">
-        <form>
-          <input
-            type="serach"
-            class="searchbar"
-            placeholder="  Search the web without being the tracked"
-          />
-          <i class="fa fa-search fa-lg"></i>
-        </form>
-      </div>
-    </div>
-  </body>
+<head>
+	<title>DuckDuckGo</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	
+	<div class="navbar"></div>
+
+	<div class="container">
+		<center>
+
+			<img class="logo" src="logo.png">
+
+			<div class="form-wrapper">
+				<form>
+					<input type="search" placeholder="Search without being tracked">
+					<button class="search" action="">
+						<img src="search.svg">
+					</button>
+				</form>
+			</div>
+
+			<br>
+
+			<p class="title">
+				Tired of being tracked online? We can help.
+			</p>
+			<p class="title-smol">
+				We don't store your personal info. We don't follow you around with ads.<br>
+				We don't track you. Ever.
+			</p>
+			<button>Why am I sus?</button>
+
+		</center>
+	</div>
+
+</body>
 </html>
