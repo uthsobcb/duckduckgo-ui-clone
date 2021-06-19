@@ -1,2 +1,13 @@
-# duckduckgo-ui-clone
-I have trying to create DuckDuckGo ui clone. I know it is not responsive but I did. I will try to make it responsive in future.If you want to contribute then Go Ahed.
+# DuckDuckGo UI Clone
+
+This is a fork from https://github.com/uthsobcb/duckduckgo-ui-clone
+
+What is changed? The whole code
+
+The search bar icon is taken from www.flaticon.com
+
+# Screenshot
+
+![](https://github.com/cakemeow/duckduckgo-ui-clone/blob/master/duck.png)
+With the sidebar expanded
+![](https://github.com/cakemeow/duckduckgo-ui-clone/blob/master/ducksidebar.png)
